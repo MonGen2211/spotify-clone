@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const userSchema = new mongoose.Schema(
   {
     fullName: {
-      typeof: String,
+      type: String,
       required: true,
     },
 
@@ -14,7 +14,7 @@ const userSchema = new mongoose.Schema(
 
     clerkId: {
       type: String,
-      require: true,
+      required: true,
       unique: true,
     },
   },
@@ -23,4 +23,4 @@ const userSchema = new mongoose.Schema(
   }
 );
 
-export const Users = mongoose.model("Users", userSchema);
+export const User = mongoose.model("User", userSchema);
