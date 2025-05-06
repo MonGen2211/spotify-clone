@@ -10,14 +10,21 @@ import albumsRoutes from "./routes/album.route.js";
 import statsRoutes from "./routes/stat.route.js";
 import { connectDb } from "./lib/connectDb.js";
 import fileUpload from "express-fileupload";
+
+import cors from "cors";
 dotenv.config();
 const __dirname = path.resolve();
 
 const app = express();
 const PORT = process.env.PORT;
+app.use(
+  cors({
+    origin: "http://localhost:3000",
+    credentials: true,
+  })
+);
 
 app.use(express.json());
-
 // Pass no parameters
 app.use(
   clerkMiddleware({
