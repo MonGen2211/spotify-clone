@@ -1,7 +1,9 @@
 # 🎧 Spotify Clone
 
+<div align="left">
+
 A full-stack clone of **Spotify Web Player**, built using **Node.js**, **React**, and **MongoDB**.  
-This project includes user authentication, playlists, and music streaming functionalities.  
+This project includes user authentication, playlists, and music streaming functionalities.
 
 ---
 
@@ -26,13 +28,16 @@ This project includes user authentication, playlists, and music streaming functi
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-black?style=flat&logo=jsonwebtokens&logoColor=white)
 ![bcryptjs](https://img.shields.io/badge/BcryptJS-blue?style=flat)
+![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=flat&logo=mongoose&logoColor=white)
 
 ### 🎨 Frontend
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+![DaisyUI](https://img.shields.io/badge/DaisyUI-F4B400?style=flat&logo=daisyui&logoColor=white)
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=flat)
+![Zustand](https://img.shields.io/badge/Zustand-FF9900?style=flat)
 
 ---
 
@@ -80,3 +85,5 @@ npm run dev
 ## 📬 Contact
 
 Feel free to reach out via [GitHub](https://github.com/MonGen2211)
+
+</div>
